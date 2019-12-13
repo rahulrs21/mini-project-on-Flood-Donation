@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>about us</title>
+	<link rel="stylesheet" type="text/css" href="aboutus.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="frontpage.js">
+  </script>
+  <style>
+      /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+    </style>
+</head>
+<body>
+	<div class="topnav" id="myTopnav">
+  <a href="aboutus.html">About Us</a>
+   <a href="userlogin.php">User Login</a>
+   <a href="adminloginfirst.php">Admin Login</a>
+    <a href="signup.php">Register</a>
+  <a href="frontpage.html" >Home</a>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a> 
+</div>
+   <div class="triangle"><h1><center>About Us</center></h1>
+   </div>
+   <div class="content">
+   	  <center><p>Feel Free to donate is </p><p>all about donating the needy things to poor people </p><p>who don't have the affordability to purchase it</p></p>
+   	  <p>The great english writer <strong><i>Kathy Calvin</i></strong> has told that</p><p> <strong><i>"Giving is not just about making a donation it's about making a difference"</i></strong></p></p>
+
+   	  <p>A donation is a gift for charity, humanitarian aid or to benifit a cause</p>
+   	  <p>A donation may take various forms </p><p>including money, services or goods such as clothing, food, or vehicles</p></p>
+   	  <p>Charitable donations of goods or services are also called gifts in kind.</p>
+   	  <p>Our main aim is to help the poor people and</p><p> the area which is effected </p><p>by the flood or needs the financial aid. </p></p>
+   	  <p>The people who willing to donate </p><p>the needy things can directly approach through this website </p><p>and will be directed to the needy people.</p></p>
+   	  <p>In this we will collect the money, clothes, food etc</p><p> from the donor and with the presence of the donor</p><p> it will be handed over to the poor hence we can ensure </p><p>that the products will reach the needy people.</p></p></center>
+   	  
+   </div>
+</body>
+</html>
